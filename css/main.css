@@ -39,6 +39,7 @@ h6, p {
 .footer-flex-left-link h6 {
   font: 700 20px "Nunito";
   color: #5A6980;
+  cursor: pointer;
   margin-bottom: 27px;
 }
 
@@ -57,6 +58,7 @@ h6, p {
 
 .footer-flex-right-text {
   font: 700 20px "Nunito";
+  cursor: pointer;
   color: #5A6980;
   margin-bottom: 27px;
 }
@@ -82,7 +84,7 @@ h6, p {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 16px;
-  color: #A2BDE5;
+  color: #6C7E99;
 }
 
 .footer-flex-right-email button {
@@ -117,4 +119,70 @@ h6, p {
   text-decoration: none;
   color: #7E92B2;
   margin-right: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .container .footer {
+    padding-top: 50px;
+  }
+  .container .footer-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .footer-flex-left {
+    margin-bottom: 40px;
+  }
+  .container .footer-flex-right-follow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    max-width: 393px;
+  }
+  .container .footer-reserved {
+    display: flex;
+  }
+  .container .footer-reserved-left, .container .footer-reserved-right {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 338px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 286px;
+  }
+  .container .footer-flex {
+    display: flex;
+  }
+  .container .footer-flex-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .footer-flex-left-link {
+    margin-bottom: 27px;
+  }
+  .container .footer-flex-right-email {
+    width: 286px;
+  }
+  .container .footer-reserved {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .footer-reserved-left a, .container .footer-reserved-right a {
+    margin-bottom: 10px;
+  }
 }

@@ -1,0 +1,68 @@
+@media screen and ( max-width: 768px )
+    .container 
+        max-width: 720px
+
+        .footer 
+            padding: 
+                top: 50px
+
+            &-flex 
+                display: flex
+                flex-direction: column
+
+                &-left 
+                    margin: 
+                        bottom: 40px
+                
+                &-right 
+
+                    &-follow 
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+
+@media screen and ( max-width: 425px )
+    .container 
+        max-width: 393px
+        .footer 
+            &-reserved 
+                display: flex
+                
+                &-left, &-right 
+                    display: flex
+                    flex-direction: column
+
+@media screen and ( max-width: 375px )
+    .container 
+        max-width: 338px
+
+@media screen and ( max-width: 320px )
+    .container 
+        max-width: 286px
+        .footer
+
+            &-flex
+                display: flex
+            
+                &-left
+                    display: flex
+                    flex-direction: column
+
+                    &-link
+                        margin: 
+                            bottom: 27px
+                
+                &-right
+
+                    &-email 
+                        width: 286px
+            
+            &-reserved
+                display: flex
+                flex-direction: column
+                &-left, &-right 
+                    a 
+                        margin: 
+                            bottom: 10px
+
+    
