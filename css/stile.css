@@ -1,0 +1,47 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8692A6;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.frame-flex {
+    background-image: url("/img/frame.png");
+    background-repeat: no-repeat;
+    padding-top: 64px;
+    padding-left: 82px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame-text {
+    margin-top: 276px;
+    width: 483px;  
+}
+
+p {
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 38px;
+    margin-bottom: 22px;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
