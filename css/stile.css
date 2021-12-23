@@ -18,14 +18,16 @@ h1, h2, p {
     max-width: 1440px;
 }
 
+.Info-flex {
+    display: flex;
+}
+
 .frame-flex {
     background-image: url("/img/frame.png");
     background-repeat: no-repeat;
     padding-top: 64px;
     padding-left: 82px;
     height: 1024px;
-    display: flex;
-    flex-direction: column;
 }
 
 .frame-text {
@@ -33,7 +35,7 @@ h1, h2, p {
     width: 483px;  
 }
 
-p {
+.text-passage {
     font-size: 20px;
     color: #FFFFFF;
     line-height: 38px;
@@ -44,4 +46,69 @@ span {
     font-size: 18px;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.register-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-text {
+    width: 426px;
+}
+
+h2 { 
+    font-size: 30px;
+    font-weight: 700;
+    color:#000000;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 39px;
+}
+
+form {
+    width: 426px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #696F79;
+    margin-bottom: 14px;
+}
+
+#form-name {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid #1565D8;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #494949;
+}
+
+#form-emal {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid #8692A6;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #8692A6;
+}
+
+#form-check {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+    cursor: pointer;
 }
