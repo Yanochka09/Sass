@@ -20,6 +20,7 @@ h1, h2, p {
 
 .Info-flex {
     display: flex;
+    flex-basis: 100%;
 }
 
 .frame-flex {
@@ -28,11 +29,13 @@ h1, h2, p {
     padding-top: 64px;
     padding-left: 82px;
     height: 1024px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 47%;
 }
 
 .frame-text {
-    margin-top: 276px;
-    width: 483px;  
+    margin-top: 276px;  
 }
 
 .text-passage {
@@ -40,6 +43,7 @@ h1, h2, p {
     color: #FFFFFF;
     line-height: 38px;
     margin-bottom: 22px;
+    width: 473px;
 }
 
 span {
@@ -53,6 +57,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-basis: 53%;
 }
 
 .register-text {
@@ -79,6 +84,7 @@ form {
 
 label {
     color: #696F79;
+    font-weight: 500;
     margin-bottom: 14px;
 }
 
@@ -86,6 +92,7 @@ label {
     max-width: 100%;
     border-radius: 6px;
     border: 1px solid #1565D8;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
     padding-top: 22px;
     padding-bottom: 22px;
     padding-left: 30px;
@@ -111,4 +118,15 @@ label {
     height: 20px;
     margin-right: 14px;
     cursor: pointer;
+    margin-bottom: 39px;
+}
+
+button {
+    padding: 22px 147px;
+    border-radius: 6px;
+    background-color: #1565D8;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
 }
